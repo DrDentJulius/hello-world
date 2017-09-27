@@ -168,9 +168,9 @@ cor.test(Data$GY,Data$TKW)
 
 #Power analysis for correlation
 pwr.r.test(n = NULL,r = 0.52, sig.level = 0.05,  power = 0.80, 
-??? ???????alternative = "two.sided")
+alternative = "two.sided")
 pwr.r.test(n = NULL, r = 0.52, sig.level = 0.01,  power = 0.80, 
-??? ???????alternative = "two.sided")
+alternative = "two.sided")
 
 
 ## Chi square test for ?Goodness-of-Fit ?
