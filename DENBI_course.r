@@ -234,9 +234,9 @@ scatter.smooth(R_lm$residuals~R_lm$fitted.values , span = 2/3,
 
 # Assessing Outliers, Bonferonni p-value for observations with most extreme residuals
 outlierTest(R_lm) 
-rstudent unadjusted p-value Bonferonni p
-Gen_80  4.747541         1.4282e-05   0.00099976
-Gen_39 -3.978719         1.9799e-04   0.01386000
+#rstudent unadjusted p-value Bonferonni p
+#Gen_80  4.747541         1.4282e-05   0.00099976
+#Gen_39 -3.978719         1.9799e-04   0.01386000
 
 layout(matrix(c(1:2),1,2))
 plot(R_lm,which=2,col="blue",pch=15)
